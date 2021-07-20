@@ -1,0 +1,19 @@
+{
+  "name": "guiahotelesnaucalpan",
+  "version": "1.0.0",
+  "description": "proyecto con node.js ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isato12/guiaHotelesNaucalpan.git"
+  },
+  "author": "Isai Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isato12/guiaHotelesNaucalpan/issues"
+  },
+  "homepage": "https://github.com/isato12/guiaHotelesNaucalpan#readme"
+}
