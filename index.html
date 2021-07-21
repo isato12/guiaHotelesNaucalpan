@@ -8,86 +8,189 @@
 
     <!-- Bootstrap CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Guia Hoteles de Naucalpan</title>
 </head>
 
 <body>
-    <main class="container">
-        <section>
-            <h1 class="jumbotron text-center mb-5">Hoteles</h1>
+    <main>
 
-            <div class="row">
-                <article class="col col-lg-4">
-                    <h3 class="text-center">Hotel Fiesta Inn Naucalpan </h3>
-                    <p>Habitaciiones sencillas en un hotel contemporaneo, cuenta con restaurante, bar, gimnasio
-                        y estacionamiento gratuito.
-                    </p>
-                    <p>****</p>
-                    <p>Precio: <span>$$$$</span></p>
-                </article>
-                <article class="col col-lg-4">
-                    <h3 class="text-center">Hotel Scala Magna Suites & Villas Naucalpan </h3>
-                    <p>Habitaciiones sencillas en un hotel contemporaneo, cuenta con restaurante, bar, gimnasio
-                        y estacionamiento gratuito
-                    </p>
-                    <p>****</p>
-                    <p>Precio: <span>$$$$</span></p>
-                </article>
-                <article class="col col-lg-4">
-                    <h3 class="text-center">Hotel Holiday Inn Express Naucalpan </h3>
-                    <p>Hotel de estilo desenfadado con suites y villas funcionales, marisqueria y bar.
-                    </p>
-                    <p>***</p>
-                    <p>Precio: <span>$$$$</span></p>
-                </article>
-            </div>
+        <h1 class="jumbotron text-center mb-5">Hoteles</h1>
 
-        </section>
-        <section>
-            <h2 class="text-center mb-5 mt-5">Mas Hoteles en Naucalpan</h2>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="">
-                        <h3>Hotel Mision Toreo Centro de Convenciones</h3>
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="d-flex flex-wrap">
+                        <article class=" col-lg-4 card_hotel p-1 d-flex flex-column">
+                            <header>
+                                <h3 class="text-center p-1">Hotel Fiesta Inn Naucalpan </h3>
+                                <p class="p-2">Habitaciiones sencillas en un hotel contemporaneo, cuenta con
+                                    restaurante,
+                                    bar, gimnasio
+                                    y estacionamiento gratuito.
+                                </p>
+                            </header>
+                            <footer>
+                                <p class="p-3">****</p>
+                                <p class="p-3">Precio: <span>$$$$</span></p>
+                            </footer>
+                        </article>
+
+                        <article class=" col-lg-4 card_hotel p-1 d-flex flex-column">
+
+                            <head>
+                                <h3 class="text-center">Hotel Scala Magna Suites & Villas Naucalpan </h3>
+                                <p class="p-2">Habitaciiones sencillas en un hotel contemporaneo, cuenta con
+                                    restaurante,
+                                    bar, gimnasio
+                                    y estacionamiento gratuito
+                                </p>
+                            </head>
+                            <footer>
+                                <p class="p-3">****</p>
+                                <p class="p-3">Precio: <span>$$$$</span></p>
+                            </footer>
+                        </article>
+
+                        <article class=" col-lg-4 card_hotel p-1 d-flex flex-column">
+                            <header>
+                                <h3 class="text-center">Hotel Holiday Inn Express Naucalpan </h3>
+                                <p class="p-2">Hotel de estilo desenfadado con suites y villas funcionales, marisqueria
+                                    y
+                                    bar.
+                                </p>
+                            </header>
+                            <footer>
+                                <p class="p-3">***</p>
+                                <p class="p-3">Precio: <span>$$$$</span></p>
+                            </footer>
+                        </article>
                     </div>
-                    <div class="">
-                        <p>Aparcamiento gratuito,
-                            buena comida,
-                            aire acondicionado,
-                            frecuentado por personas que viajan por trabajo.</p>
-                    </div>
-                    <div class=""><button>VER</button></div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="">
-                        <h3>Novotel Mexico City Toreo</h3>
-                    </div>
-                    <div class="">
-                        <p>Wi-Fi gratis, aire acondicionado, se permiten mascotas.</p>
-                    </div>
-                    <div class=""><button>VER</button></div>
+
+            </section>
+            <section>
+                <h2 class="text-center mb-5 mt-5">Mas Hoteles en Naucalpan</h2>
+                <div class="d-flex flex-wrap">
+                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                        <header>
+                            <h3>Hotel Mision Toreo Centro de Convenciones</h3>
+                            <p>Aparcamiento gratuito,
+                                buena comida,
+                                aire acondicionado,
+                                frecuentado por personas que viajan por trabajo.</p>
+                        </header>
+                        <footer>
+                            <button class="btn-dark btn">VER</button>
+                        </footer>
+                    </article>
+                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                        <header>
+                            <h3>Novotel Mexico City Toreo</h3>
+                            <p>Wi-Fi gratis, aire acondicionado, se permiten mascotas.</p>
+                        </header>
+                        <footer>
+                            <button class="btn-dark btn">VER</button>
+                        </footer>
+
+                    </article>
+                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                        <header>
+                            <h3>Hotel Valle de México</h3>
+                            <p>Aparcamiento gratuito
+                                desayuno gratuito
+                                bar</p>
+                        </header>
+                        <footer>
+                            <button class="btn-dark btn">VER</button>
+                        </footer>
+                    </article>
+                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                        <header>
+                            <h3>Teca Once Suites Naucalpan </h3>
+                            <p>Hotel sencillo con estacionamiento, gimnasio y acogedoras suites con cocina</p>
+                        </header>
+                        <footer>
+                            <button class="btn-dark btn">VER</button>
+                        </footer>
+                    </article>
+                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                        <header>
+                            <h3>City Express Plus Satelite</h3>
+                            <p>Hotel sencillo que ofrece desayuno de cortesia en un bar restaurante informal con terraza
+                            </p>
+                        </header>
+                        <footer>
+                            <button class="btn-dark btn">VER</button>
+                        </footer>
+                    </article>
+                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                        <header>
+                            <h3>Hotel Castello </h3>
+                            <p>Hotel sencillo con wi-fi, estacionamiento, aire acondicionado</p>
+                        </header>
+                        <footer>
+                            <button class="btn-dark btn">VER</button>
+                        </footer>
+                    </article>
+                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                        <header>
+                            <h3>Hotel el Conde</h3>
+                            <p>Hotel sencillo con wi-fi, estacionamiento, aire acondicionado</p>
+                        </header>
+                        <footer>
+                            <button class="btn-dark btn">VER</button>
+                        </footer>
+                    </article>
+                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                        <header>
+                            <h3>Motel Romanz </h3>
+                            <p>Hotel sencillo con wi-fi y estacionamiento</p>
+                        </header>
+                        <footer>
+                            <button class="btn-dark btn">VER</button>
+                        </footer>
+                    </article>
                 </div>
-                <div class="col-lg-4">
-                    <div class="">
-                        <h3>Hotel Valle de México</h3>
-                    </div>
-                    <div class="">
-                        <p>Aparcamiento gratuito
-                            desayuno gratuito
-                            bar</p>
-                    </div>
-                    <div class=""><button>VER</button></div>
-                </div>
-            </div>
-
-
-
-
-        </section>
-
-
+            </section>
+        </div>
     </main>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-4 d-flex flex-column">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+                <div class="col-lg-4">
+                    <h3>Oficina Corporativa</h3>
+                    <p>Av. México #42, Las Americas Naucalpan</p>
+                    <p>Edo de México 55555555</p>
+                    <a href="mailto:elcorreoquequieres@correo.com"><i class="bi bi-at me-1"></i>
+                        contacto@guiaoteles.com</a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#">Nosotros</a>
+                    <a href="#">Buscar</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Terminos y condiciones</a>
+                </div>
+                <div class="row d-flex flex-wrap">
+                    <p>Todos los derechos reservados Guia de hoteles 2021</p>
+                    <p>Terminos y condiciones</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
