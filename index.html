@@ -15,8 +15,40 @@
 
 <body>
     <main>
+        <nav
+            class="d-sm-none d-md-block navbar navbar-expand-lg navbar-light bg-light sticky-lg-top borrarpc z-index-1 ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Hoteles</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ver Hoteles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
 
-        <h1 class="jumbotron text-center mb-5">Hoteles</h1>
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!---------------------------header--->
+
+        <h1 class="jumbotron text-center p-5 mb-5"><a href="#">Hoteles en Naucalpan</a> </h1>
 
         <div class="container">
             <section>
@@ -32,7 +64,12 @@
                                 </p>
                             </header>
                             <footer>
-                                <p class="p-3">****</p>
+                                <p class="p-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </p>
                                 <p class="p-3">Precio: <span>$$$$</span></p>
                             </footer>
                         </article>
@@ -48,7 +85,12 @@
                                 </p>
                             </head>
                             <footer>
-                                <p class="p-3">****</p>
+                                <p class="p-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </p>
                                 <p class="p-3">Precio: <span>$$$$</span></p>
                             </footer>
                         </article>
@@ -56,13 +98,18 @@
                         <article class=" col-lg-4 card_hotel p-1 d-flex flex-column">
                             <header>
                                 <h3 class="text-center">Hotel Holiday Inn Express Naucalpan </h3>
-                                <p class="p-2">Hotel de estilo desenfadado con suites y villas funcionales, marisqueria
+                                <p class="p-2">Hotel de estilo desenfadado con suites y villas funcionales,
+                                    marisqueria
                                     y
                                     bar.
                                 </p>
                             </header>
                             <footer>
-                                <p class="p-3">***</p>
+                                <p class="p-3">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </p>
                                 <p class="p-3">Precio: <span>$$$$</span></p>
                             </footer>
                         </article>
@@ -73,7 +120,7 @@
             <section>
                 <h2 class="text-center mb-5 mt-5">Mas Hoteles en Naucalpan</h2>
                 <div class="d-flex flex-wrap">
-                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between">
                         <header>
                             <h3>Hotel Mision Toreo Centro de Convenciones</h3>
                             <p>Aparcamiento gratuito,
@@ -82,20 +129,20 @@
                                 frecuentado por personas que viajan por trabajo.</p>
                         </header>
                         <footer>
-                            <button class="btn-dark btn">VER</button>
+                            <button class="btn-dark btn btn_ver">VER</button>
                         </footer>
                     </article>
-                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between">
                         <header>
                             <h3>Novotel Mexico City Toreo</h3>
                             <p>Wi-Fi gratis, aire acondicionado, se permiten mascotas.</p>
                         </header>
                         <footer>
-                            <button class="btn-dark btn">VER</button>
+                            <button class="btn-dark btn btn_ver">VER</button>
                         </footer>
 
                     </article>
-                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between">
                         <header>
                             <h3>Hotel Valle de México</h3>
                             <p>Aparcamiento gratuito
@@ -103,53 +150,54 @@
                                 bar</p>
                         </header>
                         <footer>
-                            <button class="btn-dark btn">VER</button>
+                            <button class="btn-dark btn btn_ver">VER</button>
                         </footer>
                     </article>
-                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between">
                         <header>
                             <h3>Teca Once Suites Naucalpan </h3>
                             <p>Hotel sencillo con estacionamiento, gimnasio y acogedoras suites con cocina</p>
                         </header>
                         <footer>
-                            <button class="btn-dark btn">VER</button>
+                            <button class="btn-dark btn btn_ver">VER</button>
                         </footer>
                     </article>
-                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between">
                         <header>
                             <h3>City Express Plus Satelite</h3>
-                            <p>Hotel sencillo que ofrece desayuno de cortesia en un bar restaurante informal con terraza
+                            <p>Hotel sencillo que ofrece desayuno de cortesia en un bar restaurante informal con
+                                terraza
                             </p>
                         </header>
                         <footer>
-                            <button class="btn-dark btn">VER</button>
+                            <button class="btn-dark btn btn_ver">VER</button>
                         </footer>
                     </article>
-                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between">
                         <header>
                             <h3>Hotel Castello </h3>
                             <p>Hotel sencillo con wi-fi, estacionamiento, aire acondicionado</p>
                         </header>
                         <footer>
-                            <button class="btn-dark btn">VER</button>
+                            <button class="btn-dark btn btn_ver">VER</button>
                         </footer>
                     </article>
-                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between">
                         <header>
                             <h3>Hotel el Conde</h3>
                             <p>Hotel sencillo con wi-fi, estacionamiento, aire acondicionado</p>
                         </header>
                         <footer>
-                            <button class="btn-dark btn">VER</button>
+                            <button class="btn-dark btn btn_ver">VER</button>
                         </footer>
                     </article>
-                    <article class="col-lg-4 card_hotel_p d-flex flex-column">
+                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between">
                         <header>
                             <h3>Motel Romanz </h3>
                             <p>Hotel sencillo con wi-fi y estacionamiento</p>
                         </header>
                         <footer>
-                            <button class="btn-dark btn">VER</button>
+                            <button class="btn-dark btn btn_ver">VER</button>
                         </footer>
                     </article>
                 </div>
@@ -158,36 +206,62 @@
     </main>
 
     <footer class="footer">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
 
-                <div class="col-lg-4 d-flex flex-column">
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-twitter"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-youtube"></i></a>
+                <div class="col-lg-4 mt-2 col-xs-12 text-center">
+                    <a href="#"><i class="bi bi-facebook icono"></i></a>
+                    <a href="#"><i class="bi bi-twitter icono"></i></a>
+                    <a href="#"><i class="bi bi-instagram icono"></i></a>
+                    <a href="#"><i class="bi bi-youtube icono"></i></a>
                 </div>
-                <div class="col-lg-4">
+                <address class="col-lg-4 text-center mt-3">
                     <h3>Oficina Corporativa</h3>
                     <p>Av. México #42, Las Americas Naucalpan</p>
                     <p>Edo de México 55555555</p>
                     <a href="mailto:elcorreoquequieres@correo.com"><i class="bi bi-at me-1"></i>
                         contacto@guiaoteles.com</a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="#">Nosotros</a>
-                    <a href="#">Buscar</a>
-                    <a href="#">Contacto</a>
-                    <a href="#">Terminos y condiciones</a>
-                </div>
-                <div class="row d-flex flex-wrap">
-                    <p>Todos los derechos reservados Guia de hoteles 2021</p>
-                    <p>Terminos y condiciones</p>
+                </address>
+
+                <div class="col-12 ms-auto me-auto d-flex flex-wrap mt-2">
+                    <p class="ms-auto me-auto ">Todos los derechos reservados Guia de hoteles 2021</p>
+                    <p class="ms-auto me-auto ">Terminos y condiciones</p>
                 </div>
             </div>
 
         </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-md-none fixed-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Hoteles</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ver Hoteles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
     </footer>
+
 
 
 
