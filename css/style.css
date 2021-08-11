@@ -1,3 +1,7 @@
+:root {
+  --varbackground-color: #042d59;
+}
+
 html {
   box-sizing: border-box;
   margin: 0;
@@ -16,12 +20,16 @@ h5,
 p,
 a,
 button,
-li {
+li,
+i {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 .jumbotron {
-  background-color: rgb(0, 153, 255);
+  background-color: var(--varbackground-color);
   color: white;
 }
 .jumbotron a {
@@ -63,14 +71,21 @@ li {
   margin: 20px 5px 0 0;
   bottom: 0;
   left: 0;
+  background-color: var(--varbackground-color);
+  padding: 0.5rem 2rem;
+  color: rgb(255, 255, 255);
 }
 
 .footer {
   padding: 10;
-  background-color: rgb(0, 153, 255);
+  background-color: var(--varbackground-color);
   margin-bottom: 0;
   margin-top: 20px;
   padding: 5px 15px 0 15px;
+  color: white;
+}
+.footer a {
+  color: white;
 }
 
 .icono {
@@ -81,6 +96,9 @@ li {
   width: 40px;
   text-align: center;
   font-size: 30px;
+}
+.footer-icon {
+  padding-right: 5px;
 }
 .bi-facebook:hover {
   color: #1877f2;
