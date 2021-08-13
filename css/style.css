@@ -1,17 +1,13 @@
-:root {
-  --varbackground-color: #042d59;
-}
-
 html {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
+
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
+
 h1,
 h2,
 h3,
@@ -23,70 +19,60 @@ button,
 li,
 i {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
+
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
+
 .jumbotron {
-  background-color: var(--varbackground-color);
-  color: white;
-}
-.jumbotron a {
-  color: white;
-  text-decoration: none;
-}
+  background-color: #042d59;
+  color: white; }
+
 @media (max-width: 768) {
   .borrarMovil {
-    display: none;
-  }
-}
+    display: none; } }
+
 @media (max-width: 769) {
   .borrarpc {
-    display: none !important;
-  }
-}
+    display: none !important; } }
 
 .card_hotel {
   flex: 1 300px;
   margin: 10px 15px;
   padding: 10px;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
+
 .bi-star-fill {
-  color: rgb(182, 182, 40);
-}
+  color: #b6b628; }
 
 .card_hotel_p h3 {
-  padding: 10px;
-}
+  padding: 10px; }
+
 .card_hotel_p {
   border: #1876f27c 1px solid;
   height: auto;
   flex: 1 300px;
   padding: 2px;
-  margin: 20px 5px;
-}
+  margin: 20px 5px; }
+
 .btn_ver {
   margin: 20px 5px 0 0;
   bottom: 0;
   left: 0;
-  background-color: var(--varbackground-color);
+  background-color: #042d59;
   padding: 0.5rem 2rem;
-  color: rgb(255, 255, 255);
-}
+  color: white; }
 
 .footer {
   padding: 10;
-  background-color: var(--varbackground-color);
+  background-color: #042d59;
   margin-bottom: 0;
   margin-top: 20px;
   padding: 5px 15px 0 15px;
-  color: white;
-}
+  color: white; }
+
 .footer a {
-  color: white;
-}
+  color: white; }
 
 .icono {
   color: white;
@@ -95,24 +81,35 @@ a {
   margin: 20px 10px 0 0;
   width: 40px;
   text-align: center;
-  font-size: 30px;
-}
+  font-size: 30px; }
+
 .footer-icon {
-  padding-right: 5px;
-}
+  padding-right: 5px; }
+
 .bi-facebook:hover {
   color: #1877f2;
-  background-color: white;
-}
+  background-color: white; }
+
 .bi-twitter:hover {
   color: #1da1f2;
-  background-color: white;
-}
+  background-color: white; }
+
 .bi-instagram:hover {
   color: #833ab4;
-  background-color: white;
-}
+  background-color: white; }
+
 .bi-youtube:hover {
   color: #ff0000;
-  background-color: white;
-}
+  background-color: white; }
+
+/*--------------*/
+/*contacto formulario*/
+/*---------------*/
+.body-contac {
+  background-image: url(../assets/tablet.jpg);
+  background-position: center center; }
+
+.form {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #042d59; }

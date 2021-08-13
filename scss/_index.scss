@@ -1,0 +1,80 @@
+@media (max-width: 768) {
+  .borrarMovil {
+    display: none;
+  }
+}
+@media (max-width: 769) {
+  .borrarpc {
+    display: none !important;
+  }
+}
+
+.card_hotel {
+  flex: 1 300px;
+  margin: 10px 15px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.bi-star-fill {
+  color: rgb(182, 182, 40);
+}
+
+.card_hotel_p h3 {
+  padding: 10px;
+}
+.card_hotel_p {
+  border: #1876f27c 1px solid;
+  height: auto;
+  flex: 1 300px;
+  padding: 2px;
+  margin: 20px 5px;
+}
+.btn_ver {
+  margin: 20px 5px 0 0;
+  bottom: 0;
+  left: 0;
+  background-color: $background-color;
+  padding: 0.5rem 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.footer {
+  padding: 10;
+  background-color: $background-color;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 5px 15px 0 15px;
+  color: white;
+}
+.footer a {
+  color: white;
+}
+
+.icono {
+  color: white;
+  background-color: black;
+  display: inline-block;
+  margin: 20px 10px 0 0;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+.footer-icon {
+  padding-right: 5px;
+}
+.bi-facebook:hover {
+  color: #1877f2;
+  background-color: white;
+}
+.bi-twitter:hover {
+  color: #1da1f2;
+  background-color: white;
+}
+.bi-instagram:hover {
+  color: #833ab4;
+  background-color: white;
+}
+.bi-youtube:hover {
+  color: #ff0000;
+  background-color: white;
+}
