@@ -113,3 +113,7 @@ a {
   max-width: 800px;
   margin: 0 auto;
   color: #042d59; }
+
+.icon-table img {
+  width: 2rem;
+  height: 2rem; }
