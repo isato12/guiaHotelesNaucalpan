@@ -1,4 +1,50 @@
+/** @format */
+
 .icon-table img {
   width: 2rem;
   height: 2rem;
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+
+.testimoniales {
+  padding: 2rem;
+  background-color: $bs-primary;
+}
+.testimoniales h5 {
+  margin: 2rem 0;
+  color: black;
+}
+.testimonial {
+  color: black;
+}
+blockquote p {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .testimoniales {
+    background-color: $bs-primary;
+    padding: 5rem;
+  }
+  blockquote {
+    position: relative;
+    padding-left: 5rem;
+  }
+  blockquote p {
+    max-width: 500px;
+  }
+  blockquote::before {
+    position: absolute;
+    content: "\201c";
+    display: block;
+    color: black;
+    font-size: 10rem;
+    top: -9rem;
+    left: 0;
+  }
 }
