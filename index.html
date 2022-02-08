@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Guia Hoteles de Naucalpan</title>
+    <title>Guia Turistica de Naucalpan</title>
 </head>
 
 <body>
 
     <nav class="d-sm-none d-md-block navbar navbar-expand-lg navbar-light bg-light sticky-lg-top borrarpc z-index-1 ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Hoteles</a>
+            <a class="navbar-brand" href="index.html"><img src="assets/logo4.png" width="250"
+                    alt="Logotipo guia turistica de naucalpan"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,7 +30,7 @@
                         <a class="nav-link " aria-current="page" href="nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ver Hoteles</a>
+                        <a class="nav-link" href="hoteles.html">Hoteles</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="precios.html">Precios</a>
@@ -50,10 +51,65 @@
 
     <!---------------------------header--->
     <main>
-        <h1 class="jumbotron text-center p-5 mb-5">Hoteles en Naucalpan</h1>
+        <h1 class="jumbotron text-center p-5 ">Guía Turistica en Naucalpan</h1>
+
+        <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/carusel/Fachada_(2)_P.jpg" class="d-block w-100 h-auto text-center" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Hoteles</h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/carusel/acogido-por-magestuoso.jpg" class="d-block w-100 text-center" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Restaurantes </h2>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <img src="assets/carusel/casaorg3.jpeg" class="d-block w-100 text-center" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Lugares de Interes</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/carusel/plazaSatelite.jpg" class="d-block w-100 text-center" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Centros Comerciales</h2>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
 
 
         <!------------------------------------------cards------------------------------------------->
+        <h2 class="text-center mb-5 mt-5">Hoteles en Naucalpan</h2>
 
         <div class="container">
             <section class="mb-5">
@@ -149,110 +205,337 @@
             <!-------------------------------------------Mas hoteles---------------------------------->
 
             <section>
-                <h2 class="text-center mb-5 mt-5">Mas Hoteles en Naucalpan</h2>
-                <div class="d-flex flex-wrap ">
-                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
-                        <header>
-                            <h3>Hotel Mision Toreo Centro de Convenciones</h3>
-                            <p>Aparcamiento gratuito,
-                                buena comida,
-                                aire acondicionado,
-                                frecuentado por personas que viajan por trabajo.</p>
-                        </header>
-                        <footer>
-                            <button class="btn btn_ver">VER</button>
-                        </footer>
-                    </article>
+                <h2 class="text-center mb-5 mt-5">Restaurantes en Naucalpan</h2>
+                <div class="container">
+                    <section class="mb-5">
+                        <div class="row mb-5">
+                            <div class="d-flex flex-wrap">
+                                <article class="card col-lg-4 card_hotel p-1 d-flex flex-column mb-5">
+                                    <img src="assets/hoteles/fiestaInn/fiestainnD.jpg" class="card-img-top"
+                                        alt="HOTEL FIESTA INN ">
+                                    <header class="card-body">
+                                        <h3 class="text-center p-1 card-title">Hotel Fiesta Inn Naucalpan </h3>
+                                    </header>
+                                    <p class="p-2 card-text">Habitaciiones sencillas en un hotel contemporaneo, cuenta
+                                        con
+                                        restaurante,
+                                        bar, gimnasio
+                                        y estacionamiento gratuito.
+                                    </p>
+                                    <footer class="card-footer">
+                                        <p class="p-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </p>
+                                        <p class="p-3">Precio:
+                                            <span>
+                                                <i class="bi bi-currency-dollar"></i>
+                                                <i class="bi bi-currency-dollar"></i>
+                                                <i class="bi bi-currency-dollar"></i>
+                                                <i class="bi bi-currency-dollar"></i>
+                                            </span>
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ver precios</a>
+                                    </footer>
+                                </article>
 
-                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
-                        <header>
-                            <h3>Novotel Mexico City Toreo</h3>
-                            <p>Wi-Fi gratis, aire acondicionado, se permiten mascotas.</p>
-                        </header>
-                        <footer>
-                            <button class="btn btn_ver">VER</button>
-                        </footer>
+                                <article class="card col-lg-4 card_hotel p-1 d-flex flex-column mb-5">
+                                    <img src="assets/hoteles/Hscala/scala-magna.jpg" class="card-img-top"
+                                        alt="HOTEL SCALA MAGNA">
 
-                    </article>
+                                    <header class="card-body">
+                                        <h3 class="text-center card-title">Hotel Scala Magna Suites & Villas Naucalpan
+                                        </h3>
+                                    </header>
+                                    <p class="p-2 card-text">Habitaciiones sencillas en un hotel contemporaneo, cuenta
+                                        con
+                                        restaurante,
+                                        bar, gimnasio
+                                        y estacionamiento gratuito
+                                    </p>
+                                    <footer class="card-footer">
+                                        <p class="p-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </p>
+                                        <p class="p-3">Precio: <span>
+                                                <i class="bi bi-currency-dollar"></i>
+                                                <i class="bi bi-currency-dollar"></i>
+                                                <i class="bi bi-currency-dollar"></i>
+                                                <i class="bi bi-currency-dollar"></i>
+                                            </span></p>
+                                        <a href="#" class="btn btn-primary">Ver precios</a>
+                                    </footer>
+                                </article>
 
-                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
-                        <header>
-                            <h3>Hotel Valle de México</h3>
-                            <p>Aparcamiento gratuito
-                                desayuno gratuito
-                                bar</p>
-                        </header>
-                        <footer>
-                            <button class="btn btn_ver">VER</button>
-                        </footer>
-                    </article>
+                                <article class="card col-lg-4 card_hotel p-1 d-flex flex-column mb-5">
+                                    <img src="assets/hoteles/holidY/holiday-inn.jfif" class="card-img-top"
+                                        alt="HOTEL HOLIDAY">
+                                    <header class="card-body">
+                                        <h3 class="text-center card-title">Hotel Holiday Inn Express Naucalpan </h3>
+                                    </header>
+                                    <p class="p-2 card-text">Hotel de estilo desenfadado con suites y villas
+                                        funcionales,
+                                        marisqueria y bar.
+                                    </p>
+                                    <footer class="card-footer">
+                                        <p class="p-3">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </p>
+                                        <p class="p-3">Precio: <span>
+                                                <i class="bi bi-currency-dollar"></i>
+                                                <i class="bi bi-currency-dollar"></i>
+                                                <i class="bi bi-currency-dollar"></i>
+                                                <i class="bi bi-currency-dollar"></i>
+                                            </span></p>
+                                        <a href="#" class="btn btn-primary">Ver precios</a>
+                                    </footer>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
 
-                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
-                        <header>
-                            <h3>Teca Once Suites Naucalpan </h3>
-                            <p>Hotel sencillo con estacionamiento, gimnasio y acogedoras suites con cocina</p>
-                        </header>
-                        <footer>
-                            <button class="btn btn_ver">VER</button>
-                        </footer>
-                    </article>
 
-                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
-                        <header>
-                            <h3>City Express Plus Satelite</h3>
-                            <p>Hotel sencillo que ofrece desayuno de cortesia en un bar restaurante informal con
-                                terraza
-                            </p>
-                        </header>
-                        <footer>
-                            <button class="btn btn_ver">VER</button>
-                        </footer>
-                    </article>
 
-                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
-                        <header>
-                            <h3>Hotel Castello </h3>
-                            <p>Hotel sencillo con wi-fi, estacionamiento, aire acondicionado</p>
-                        </header>
-                        <footer>
-                            <button class="btn btn_ver">VER</button>
-                        </footer>
-                    </article>
+                    <!-- Atractivos turisticos -->
 
-                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
-                        <header>
-                            <h3>Hotel el Conde</h3>
-                            <p>Hotel sencillo con wi-fi, estacionamiento, aire acondicionado</p>
-                        </header>
-                        <footer>
-                            <button class="btn btn_ver">VER</button>
-                        </footer>
-                    </article>
+                    <section>
+                        <h2 class="text-center mb-5 mt-5">Atractivos Turisticos en Naucalpan</h2>
+                        <div class="container">
+                            <section class="mb-5">
+                                <div class="row mb-5">
+                                    <div class="d-flex flex-wrap">
+                                        <article class="card col-lg-4 card_hotel p-1 d-flex flex-column mb-5">
+                                            <img src="assets/hoteles/fiestaInn/fiestainnD.jpg" class="card-img-top"
+                                                alt="HOTEL FIESTA INN ">
+                                            <header class="card-body">
+                                                <h3 class="text-center p-1 card-title">Hotel Fiesta Inn Naucalpan </h3>
+                                            </header>
+                                            <p class="p-2 card-text">Habitaciiones sencillas en un hotel contemporaneo,
+                                                cuenta
+                                                con
+                                                restaurante,
+                                                bar, gimnasio
+                                                y estacionamiento gratuito.
+                                            </p>
+                                            <footer class="card-footer">
+                                                <p class="p-3">
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </p>
+                                                <p class="p-3">Precio:
+                                                    <span>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                    </span>
+                                                </p>
+                                                <a href="#" class="btn btn-primary">Ver precios</a>
+                                            </footer>
+                                        </article>
 
-                    <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
-                        <header>
-                            <h3>Motel Romanz </h3>
-                            <p>Hotel sencillo con wi-fi y estacionamiento</p>
-                        </header>
-                        <footer>
-                            <button class="btn btn_ver">VER</button>
-                        </footer>
-                    </article>
-                </div>
-            </section>
-        </div>
+                                        <article class="card col-lg-4 card_hotel p-1 d-flex flex-column mb-5">
+                                            <img src="assets/hoteles/Hscala/scala-magna.jpg" class="card-img-top"
+                                                alt="HOTEL SCALA MAGNA">
+
+                                            <header class="card-body">
+                                                <h3 class="text-center card-title">Hotel Scala Magna Suites & Villas
+                                                    Naucalpan
+                                                </h3>
+                                            </header>
+                                            <p class="p-2 card-text">Habitaciiones sencillas en un hotel contemporaneo,
+                                                cuenta
+                                                con
+                                                restaurante,
+                                                bar, gimnasio
+                                                y estacionamiento gratuito
+                                            </p>
+                                            <footer class="card-footer">
+                                                <p class="p-3">
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </p>
+                                                <p class="p-3">Precio: <span>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                    </span></p>
+                                                <a href="#" class="btn btn-primary">Ver precios</a>
+                                            </footer>
+                                        </article>
+
+                                        <article class="card col-lg-4 card_hotel p-1 d-flex flex-column mb-5">
+                                            <img src="assets/hoteles/holidY/holiday-inn.jfif" class="card-img-top"
+                                                alt="HOTEL HOLIDAY">
+                                            <header class="card-body">
+                                                <h3 class="text-center card-title">Hotel Holiday Inn Express Naucalpan
+                                                </h3>
+                                            </header>
+                                            <p class="p-2 card-text">Hotel de estilo desenfadado con suites y villas
+                                                funcionales,
+                                                marisqueria y bar.
+                                            </p>
+                                            <footer class="card-footer">
+                                                <p class="p-3">
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </p>
+                                                <p class="p-3">Precio: <span>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                        <i class="bi bi-currency-dollar"></i>
+                                                    </span></p>
+                                                <a href="#" class="btn btn-primary">Ver precios</a>
+                                            </footer>
+                                        </article>
+                                    </div>
+                                </div>
+                            </section>
+
+
+                            <!-- centros comerciales en Naucalpan -->
+
+                            <section>
+                                <h2 class="text-center mb-5 mt-5">Centros Comerciales en Naucalpan</h2>
+                                <div class="container">
+                                    <section class="mb-5">
+                                        <div class="row mb-5">
+                                            <div class="d-flex flex-wrap">
+                                                <article class="card col-lg-4 card_hotel p-1 d-flex flex-column mb-5">
+                                                    <img src="assets/hoteles/fiestaInn/fiestainnD.jpg"
+                                                        class="card-img-top" alt="HOTEL FIESTA INN ">
+                                                    <header class="card-body">
+                                                        <h3 class="text-center p-1 card-title">Hotel Fiesta Inn
+                                                            Naucalpan </h3>
+                                                    </header>
+                                                    <p class="p-2 card-text">Habitaciiones sencillas en un hotel
+                                                        contemporaneo,
+                                                        cuenta
+                                                        con
+                                                        restaurante,
+                                                        bar, gimnasio
+                                                        y estacionamiento gratuito.
+                                                    </p>
+                                                    <footer class="card-footer">
+                                                        <p class="p-3">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </p>
+                                                        <p class="p-3">Precio:
+                                                            <span>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                            </span>
+                                                        </p>
+                                                        <a href="#" class="btn btn-primary">Ver precios</a>
+                                                    </footer>
+                                                </article>
+
+                                                <article class="card col-lg-4 card_hotel p-1 d-flex flex-column mb-5">
+                                                    <img src="assets/hoteles/Hscala/scala-magna.jpg"
+                                                        class="card-img-top" alt="HOTEL SCALA MAGNA">
+
+                                                    <header class="card-body">
+                                                        <h3 class="text-center card-title">Hotel Scala Magna Suites &
+                                                            Villas
+                                                            Naucalpan
+                                                        </h3>
+                                                    </header>
+                                                    <p class="p-2 card-text">Habitaciiones sencillas en un hotel
+                                                        contemporaneo,
+                                                        cuenta
+                                                        con
+                                                        restaurante,
+                                                        bar, gimnasio
+                                                        y estacionamiento gratuito
+                                                    </p>
+                                                    <footer class="card-footer">
+                                                        <p class="p-3">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </p>
+                                                        <p class="p-3">Precio: <span>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                            </span></p>
+                                                        <a href="#" class="btn btn-primary">Ver precios</a>
+                                                    </footer>
+                                                </article>
+
+                                                <article class="card col-lg-4 card_hotel p-1 d-flex flex-column mb-5">
+                                                    <img src="assets/hoteles/holidY/holiday-inn.jfif"
+                                                        class="card-img-top" alt="HOTEL HOLIDAY">
+                                                    <header class="card-body">
+                                                        <h3 class="text-center card-title">Hotel Holiday Inn Express
+                                                            Naucalpan
+                                                        </h3>
+                                                    </header>
+                                                    <p class="p-2 card-text">Hotel de estilo desenfadado con suites y
+                                                        villas
+                                                        funcionales,
+                                                        marisqueria y bar.
+                                                    </p>
+                                                    <footer class="card-footer">
+                                                        <p class="p-3">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </p>
+                                                        <p class="p-3">Precio: <span>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                                <i class="bi bi-currency-dollar"></i>
+                                                            </span></p>
+                                                        <a href="#" class="btn btn-primary">Ver precios</a>
+                                                    </footer>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </section>
     </main>
 
     <footer class="footer">
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-6 mt-2 col-xs-12 text-center">
-                    <a href="#"><i class="bi bi-facebook icono"></i></a>
-                    <a href="#"><i class="bi bi-twitter icono"></i></a>
-                    <a href="#"><i class="bi bi-instagram icono"></i></a>
-                    <a href="#"><i class="bi bi-youtube icono"></i></a>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="mt-2 text-center">
+                        <a href="#"><i class="bi bi-facebook icono"></i></a>
+                        <a href="#"><i class="bi bi-twitter icono"></i></a>
+                        <a href="#"><i class="bi bi-instagram icono"></i></a>
+                        <a href="#"><i class="bi bi-youtube icono"></i></a>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-outline-light mt-2 ms-auto me-auto" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Newsletter
+                        </button>
+                    </div>
                 </div>
+
                 <address class="col-lg-6  mt-3 ">
                     <h3 class="text-center mb-3">Oficina Corporativa</h3>
                     <p><i class="bi bi-house-door-fill footer-icon"></i> Las Americas Naucalpan Edo de México</p>
@@ -260,6 +543,8 @@
                     <a href="mailto:elcorreoquequieres@correo.com"><i class="bi bi-envelope-open-fill footer-icon"></i>
                         contacto@guiaoteles.com</a>
                 </address>
+
+
 
                 <div class="col-12 ms-auto me-auto d-flex flex-wrap mt-2">
                     <p class="ms-auto me-auto ">Todos los derechos reservados Guia de hoteles 2021</p>
@@ -271,6 +556,35 @@
 
 
     </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¡Suscribete y recibe promociones!
+
+                    <form>
+                        <div class="mb-3 ">
+                            <label for="recipient-name" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="recipient-name">
+                        </div>
+
+                    </form>
+                    <div class="mb-3 ms-auto me-auto">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Suscribirse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
 

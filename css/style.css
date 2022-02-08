@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/** @format */
 html {
   box-sizing: border-box;
   margin: 0;
@@ -28,14 +30,13 @@ a {
   background-color: #042d59;
   color: white; }
 
+/** @format */
 @media (max-width: 768) {
   .borrarMovil {
     display: none; } }
-
 @media (max-width: 769) {
   .borrarpc {
     display: none !important; } }
-
 .card_hotel {
   flex: 1 300px;
   margin: 10px 15px;
@@ -62,6 +63,9 @@ a {
   background-color: #042d59;
   padding: 0.5rem 2rem;
   color: white; }
+
+.btn_ver:hover {
+  background-color: #0d6efd; }
 
 .footer {
   padding: 10;
@@ -139,20 +143,36 @@ li {
 blockquote p {
   color: black; }
 
+.reseña img {
+  max-width: 5rem;
+  height: auto; }
+
 @media (min-width: 768px) {
   .testimoniales {
     background-color: #0d6efd;
     padding: 5rem; }
+
   blockquote {
     position: relative;
     padding-left: 5rem; }
-  blockquote p {
-    max-width: 500px; }
+
   blockquote::before {
     position: absolute;
     content: "\201c";
     display: block;
     color: black;
     font-size: 10rem;
-    top: -9rem;
-    left: 0; } }
+    top: -5rem;
+    left: 0; }
+
+  blockquote div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem; }
+
+  blockquote img {
+    border-radius: 50%;
+    margin: 0;
+    padding: 0; } }
+
+/*# sourceMappingURL=style.css.map */

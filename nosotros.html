@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Guia Hoteles de Naucalpan</title>
+    <title>Guia Turistica de Naucalpan</title>
 </head>
 
 <body>
 
     <nav class="d-sm-none d-md-block navbar navbar-expand-lg navbar-light bg-light sticky-lg-top borrarpc z-index-1 ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Hoteles</a>
+            <a class="navbar-brand" href="index.html"><img src="assets/logo4.png" width="250"
+                    alt="Logotipo guia turistica de naucalpan"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,7 +30,7 @@
                         <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ver Hoteles</a>
+                        <a class="nav-link" href="hoteles.html">Hoteles</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="precios.html">Precios</a>
@@ -57,11 +58,19 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-6 mt-2 col-xs-12 text-center">
-                    <a href="#"><i class="bi bi-facebook icono"></i></a>
-                    <a href="#"><i class="bi bi-twitter icono"></i></a>
-                    <a href="#"><i class="bi bi-instagram icono"></i></a>
-                    <a href="#"><i class="bi bi-youtube icono"></i></a>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="mt-2 text-center">
+                        <a href="#"><i class="bi bi-facebook icono"></i></a>
+                        <a href="#"><i class="bi bi-twitter icono"></i></a>
+                        <a href="#"><i class="bi bi-instagram icono"></i></a>
+                        <a href="#"><i class="bi bi-youtube icono"></i></a>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-outline-light mt-2 ms-auto me-auto" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Newsletter
+                        </button>
+                    </div>
                 </div>
                 <address class="col-lg-6  mt-3 ">
                     <h3 class="text-center mb-3">Oficina Corporativa</h3>
@@ -82,16 +91,40 @@
 
     </footer>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ¡Suscribete y recibe promociones!
+
+                    <form>
+                        <div class="mb-3 ">
+                            <label for="recipient-name" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="recipient-name">
+                        </div>
+
+                    </form>
+                    <div class="mb-3 ms-auto me-auto">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Suscribirse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
+        <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
 </body>

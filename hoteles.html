@@ -13,12 +13,12 @@
     <title>Guia Turistica de Naucalpan</title>
 </head>
 
-<body class="body-contac">
+<body>
 
     <nav class="d-sm-none d-md-block navbar navbar-expand-lg navbar-light bg-light sticky-lg-top borrarpc z-index-1 ">
         <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="assets/logo4.png" width="250"
-                alt="Logotipo guia turistica de naucalpan"></a>
+            <a class="navbar-brand" href="index.html"><img src="assets/logo4.png" width="250"
+                    alt="Logotipo guia turistica de naucalpan"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -49,43 +49,106 @@
         </div>
     </nav>
 
-    <!---------------------------formulario--->
-    <main>
-        <h1 class="jumbotron text-center p-5 mb-5">Envía tus comentarios</h1>
 
-        <div class="container">
 
-            <form class="form">
-                <fieldset class="row col-12  d-flex flex-wrap">
-                    <div class="form-group col">
-                        <label for="name" class="form-label">Nombre</label>
-                        <input type="text" class="form-control " name="name" id="name" placeholder="Ingrese su nombre">
-                    </div>
 
-                    <div class="form-group col">
-                        <label for="lastName" class="form-label">Apellidos</label>
-                        <input type="text" class="form-control" name="lastName" id="lastName"
-                            placeholder="Ingrese sus apellidos">
-                    </div>
-                </fieldset>
 
-                <div class="row">
-                    <div class="mb-3 mt-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                            placeholder="correo@correo.com">
-                    </div>
 
-                    <div class="mb-3 col">
-                        <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea name="mensaje" id="mensaje" class="form-control" cols="30" rows="7"
-                            placeholder="ingrese su mensaje"></textarea>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-outline-primary">Enviar</button>
 
-            </form>
+
+    <section>
+        <h2 class="text-center mb-5 mt-5">Mas Hoteles en Naucalpan</h2>
+        <div class="d-flex flex-wrap ">
+            <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
+                <header>
+                    <h3>Hotel Mision Toreo Centro de Convenciones</h3>
+                    <p>Aparcamiento gratuito,
+                        buena comida,
+                        aire acondicionado,
+                        frecuentado por personas que viajan por trabajo.</p>
+                </header>
+                <footer>
+                    <button class="btn btn_ver">VER</button>
+                </footer>
+            </article>
+
+            <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
+                <header>
+                    <h3>Novotel Mexico City Toreo</h3>
+                    <p>Wi-Fi gratis, aire acondicionado, se permiten mascotas.</p>
+                </header>
+                <footer>
+                    <button class="btn btn_ver">VER</button>
+                </footer>
+
+            </article>
+
+            <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
+                <header>
+                    <h3>Hotel Valle de México</h3>
+                    <p>Aparcamiento gratuito
+                        desayuno gratuito
+                        bar</p>
+                </header>
+                <footer>
+                    <button class="btn btn_ver">VER</button>
+                </footer>
+            </article>
+
+            <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
+                <header>
+                    <h3>Teca Once Suites Naucalpan </h3>
+                    <p>Hotel sencillo con estacionamiento, gimnasio y acogedoras suites con cocina</p>
+                </header>
+                <footer>
+                    <button class="btn btn_ver">VER</button>
+                </footer>
+            </article>
+
+            <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
+                <header>
+                    <h3>City Express Plus Satelite</h3>
+                    <p>Hotel sencillo que ofrece desayuno de cortesia en un bar restaurante informal con
+                        terraza
+                    </p>
+                </header>
+                <footer>
+                    <button class="btn btn_ver">VER</button>
+                </footer>
+            </article>
+
+            <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
+                <header>
+                    <h3>Hotel Castello </h3>
+                    <p>Hotel sencillo con wi-fi, estacionamiento, aire acondicionado</p>
+                </header>
+                <footer>
+                    <button class="btn btn_ver">VER</button>
+                </footer>
+            </article>
+
+            <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
+                <header>
+                    <h3>Hotel el Conde</h3>
+                    <p>Hotel sencillo con wi-fi, estacionamiento, aire acondicionado</p>
+                </header>
+                <footer>
+                    <button class="btn btn_ver">VER</button>
+                </footer>
+            </article>
+
+            <article class="col-lg-4 d-flex flex-column card_hotel_p justify-content-between mb-5">
+                <header>
+                    <h3>Motel Romanz </h3>
+                    <p>Hotel sencillo con wi-fi y estacionamiento</p>
+                </header>
+                <footer>
+                    <button class="btn btn_ver">VER</button>
+                </footer>
+            </article>
         </div>
+    </section>
+    </div>
     </main>
 
     <footer class="footer">
@@ -159,6 +222,9 @@
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/popper.js/dist/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+            integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+            async></script>
 
 
 </body>
